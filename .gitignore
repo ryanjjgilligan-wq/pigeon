@@ -5,10 +5,11 @@ node_modules/
 .next/
 out/
 
-# PWA generated files
+# PWA generated files (next-pwa generates these at build time)
 public/sw.js
 public/workbox-*.js
 public/worker-*.js
+public/fallback-*.js
 
 # Environment
 .env
